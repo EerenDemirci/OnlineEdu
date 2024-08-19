@@ -1,0 +1,54 @@
+# Visual Studio ile ilgili dosyalar
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+wwwroot/node_modules/
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/compiled/
+appsettings.*.json
+
+# Node.js ile ilgili dosyalar
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Paket Yönetimi
+*.nupkg
+*.nuspec
+*.snupkg
+*.psmdcp
+
+# MacOS ile ilgili dosyalar
+.DS_Store
+
+# Linux ile ilgili dosyalar
+*.swp
+*~
+
+# Windows ile ilgili dosyalar
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs ve diğer çıktı dosyaları
+*.log
+*.out
+*.publish.xml
+*.pid
+*.svclog
+
+# Publish sonuçları
+bin/
+obj/
+out/
+

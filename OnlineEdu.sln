@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu", "OnlineEdu\OnlineEdu.csproj", "{9A3C30F2-B1A4-4BCE-BE1C-5380B936B1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu.API", "OnlineEdu.API\OnlineEdu.API.csproj", "{E2485E26-80CE-4FC9-B2F9-C1462B0EAB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu.Entity", "OnlineEdu.Entity\OnlineEdu.Entity.csproj", "{3319EDDD-6405-4D8B-B753-8E87663C92D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu.DataAccess", "OnlineEdu.DataAccess\OnlineEdu.DataAccess.csproj", "{7BCB9CC3-7A12-45A2-AE6C-55509BE8905D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu.Business", "OnlineEdu.Business\OnlineEdu.Business.csproj", "{E9FB0B95-6E76-4DB9-B664-FE4A9755A471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu.DTO", "OnlineEdu.DTO\OnlineEdu.DTO.csproj", "{2C726599-BFD3-4882-A55C-3F1835614ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu.WebUI", "OnlineEdu.WebUI\OnlineEdu.WebUI.csproj", "{077F8808-0B27-465B-9386-8CCDB9E4371B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A3C30F2-B1A4-4BCE-BE1C-5380B936B1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3C30F2-B1A4-4BCE-BE1C-5380B936B1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3C30F2-B1A4-4BCE-BE1C-5380B936B1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3C30F2-B1A4-4BCE-BE1C-5380B936B1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2485E26-80CE-4FC9-B2F9-C1462B0EAB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2485E26-80CE-4FC9-B2F9-C1462B0EAB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2485E26-80CE-4FC9-B2F9-C1462B0EAB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2485E26-80CE-4FC9-B2F9-C1462B0EAB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3319EDDD-6405-4D8B-B753-8E87663C92D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3319EDDD-6405-4D8B-B753-8E87663C92D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3319EDDD-6405-4D8B-B753-8E87663C92D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3319EDDD-6405-4D8B-B753-8E87663C92D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCB9CC3-7A12-45A2-AE6C-55509BE8905D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCB9CC3-7A12-45A2-AE6C-55509BE8905D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCB9CC3-7A12-45A2-AE6C-55509BE8905D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCB9CC3-7A12-45A2-AE6C-55509BE8905D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FB0B95-6E76-4DB9-B664-FE4A9755A471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FB0B95-6E76-4DB9-B664-FE4A9755A471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FB0B95-6E76-4DB9-B664-FE4A9755A471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FB0B95-6E76-4DB9-B664-FE4A9755A471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C726599-BFD3-4882-A55C-3F1835614ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C726599-BFD3-4882-A55C-3F1835614ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C726599-BFD3-4882-A55C-3F1835614ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C726599-BFD3-4882-A55C-3F1835614ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077F8808-0B27-465B-9386-8CCDB9E4371B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077F8808-0B27-465B-9386-8CCDB9E4371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077F8808-0B27-465B-9386-8CCDB9E4371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077F8808-0B27-465B-9386-8CCDB9E4371B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FB4CF66-CA79-4F4B-9F20-91B6175489A1}
+	EndGlobalSection
+EndGlobal
