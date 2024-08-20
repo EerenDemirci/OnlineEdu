@@ -11,7 +11,7 @@ public class AboutMapping : Profile
     {
         CreateMap<CreateAboutDto, About>();
         CreateMap<About, CreateAboutDto>();
-        CreateMap<UpdateAboutDto, About>().reve;
+        CreateMap<UpdateAboutDto, About>().rev
         
     }
 
