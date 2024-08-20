@@ -9,9 +9,8 @@ public class AboutMapping : Profile
 {
     public AboutMapping()
     {
-        CreateMap<CreateAboutDto, About>();
-        CreateMap<About, CreateAboutDto>();
-        CreateMap<UpdateAboutDto, About>().rev
+        CreateMap<CreateAboutDto, About>().ReverseMap();
+        CreateMap<UpdateAboutDto, About>().ReverseMap();
         
     }
 
