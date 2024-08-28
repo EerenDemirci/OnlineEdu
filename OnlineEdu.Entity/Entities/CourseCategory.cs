@@ -9,4 +9,5 @@ public class CourseCategory
     public string Icon { get; set; }
     public string Description { get; set; }
     public bool IsShow { get; set; }
+    public List<Course> Courses { get; set; }
 }

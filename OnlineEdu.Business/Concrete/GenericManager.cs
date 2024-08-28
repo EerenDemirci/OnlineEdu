@@ -17,6 +17,11 @@ public class GenericManager<T>(IRepository<T> _repository) : IGenericService<T> 
         _repository.Creat(entity);
     }
 
+    public void TCreat(bool newValues)
+    {
+        throw new NotImplementedException();
+    }
+
     public void TDelete(int id)
     {
         _repository.Delete(id);

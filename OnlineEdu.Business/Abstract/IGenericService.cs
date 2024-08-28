@@ -22,5 +22,5 @@ public interface IGenericService<T> where T : class
 
 
     List<T> TGetFilteredList(Expression<Func<T,bool>> predicate);
-
+    void TCreat(bool newValues);
 }
